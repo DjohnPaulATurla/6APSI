@@ -1,0 +1,12 @@
+.header-container{
+    flex-direction: row;
+}
+.button-container {
+    display: flex;
+}
+.register-btn {
+    padding: 10px;
+}
+.login-btn {
+    padding: 10px;
+}
