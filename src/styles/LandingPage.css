@@ -1,12 +1,56 @@
-.header-container{
-    flex-direction: row;
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #2A7B9B, #57C785, #EDDD53);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.button-container {
-    display: flex;
+
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh; 
 }
-.register-btn {
-    padding: 10px;
+
+.card {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 350px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
 }
-.login-btn {
-    padding: 10px;
+
+.title {
+  font-size: 1.75rem;
+  color: #dfe2ff;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.tab-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tab-header button {
+  flex: 1;
+  padding: 0.75rem;
+  border: none;
+  background: #e0e0e0;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.tab-header button.active {
+  background: #3f87a6;
+  color: white;
 }
