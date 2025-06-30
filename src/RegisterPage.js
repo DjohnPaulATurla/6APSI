@@ -2,7 +2,8 @@ import './styles/RegisterPage.css'
 function RegisterPage() {
  
   return (
-    <div className="register-container">
+    <div className="body">
+      <div className="register-container">
       <div className="register-card">
         <h2 className="register-title">Register</h2>
         <form className="register-form">
@@ -16,6 +17,7 @@ function RegisterPage() {
         </p>
       </div>
     </div>
+  </div>  
   );
 }
 
